@@ -12,3 +12,7 @@ for some reason, both are really slow.
 also read IE fix note.
 
 -Michael
+
+FIXED:
+-use IE 32 bit driver for phenomenal increase in speed
+-batch file to run selenium-server-standalone-2.45.0.jar
