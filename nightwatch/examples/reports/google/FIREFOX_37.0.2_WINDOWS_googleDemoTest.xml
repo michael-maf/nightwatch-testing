@@ -5,14 +5,14 @@
 
   <testsuite name="googleDemoTest"
     errors="0" failures="0" hostname="" id="" package="googleDemoTest" skipped="0"
-    tests="2" time="15.55" timestamp="Mon, 11 May 2015 19:13:23 GMT">
+    tests="2" time="20.58" timestamp="Tue, 12 May 2015 13:32:39 GMT">
   
-    <testcase name="demo test google" time="9.427" assertions="1">
+    <testcase name="demo test google" time="14.24" assertions="1">
 
     
     </testcase>
   
-    <testcase name="part two" time="6.126" assertions="1">
+    <testcase name="part two" time="6.340" assertions="1">
 
     
     </testcase>

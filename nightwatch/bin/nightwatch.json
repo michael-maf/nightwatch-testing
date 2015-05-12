@@ -1,7 +1,7 @@
 {
-  "src_folders" : ["./examples/tests"],
-  "output_folder" : "./examples/reports",
-  "custom_commands_path" : "./examples/custom-commands",
+  "src_folders" : ["./my_tests/tests"],
+  "output_folder" : "./my_tests/reports",
+  "custom_commands_path" : "./my_tests/custom-commands",
   "custom_assertions_path" : "",
   "globals_path" : "",
   "live_output" : false,
@@ -15,8 +15,8 @@
     "host" : "127.0.0.1",
     "port" : 4444,
     "cli_args" : {
-      "webdriver.chrome.driver" : "",
-      "webdriver.ie.driver" : "",
+      "webdriver.chrome.driver" : "./assets/chromeDriver_win32/",
+      "webdriver.ie.driver" : "./assets/IEDriverServer_Win32_2.45.0/",
       "webdriver.firefox.profile" : ""
     }
   },
@@ -38,7 +38,23 @@
         "acceptSslCerts" : true
       }
     },
-
+	
+	"chrome" : {
+		"desiredCapabilities" :{
+			"browserName" : "chrome",
+			"javascriptEnabled" : true,
+			"acceptSslCerts" : true
+		}
+	},
+	
+	"ie" : {
+		"desiredCapabilities" :{
+			"browserName" : "ie",
+			"javascriptEnabled" : true,
+			"acceptSslCerts" : true
+		}
+	},
+	
     "saucelabs" : {
       "selenium_host" : "ondemand.saucelabs.com",
       "selenium_port" : 80,

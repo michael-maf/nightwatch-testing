@@ -5,9 +5,9 @@
 
   <testsuite name="github"
     errors="0" failures="0" hostname="" id="" package="github" skipped="0"
-    tests="1" time="13.57" timestamp="Mon, 11 May 2015 19:12:59 GMT">
+    tests="1" time="15.85" timestamp="Tue, 12 May 2015 13:32:15 GMT">
   
-    <testcase name="Demo test GitHub" time="13.57" assertions="4">
+    <testcase name="Demo test GitHub" time="15.85" assertions="4">
 
     
 
